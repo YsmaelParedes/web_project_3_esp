@@ -1,0 +1,45 @@
+.intro {
+    display: grid;
+    flex-direction: column;
+    width: 1017px;
+    justify-content: center;
+    padding: 7.2%;
+}
+
+.intro__title {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.intro__quote {
+    width: 722px;
+    margin: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+}
+
+.intro__quote-author {
+    width: 720px;
+    margin: 0;
+    text-align: end;
+}
+
+.intro__text {
+    margin: 32px 0 0 0;
+    width: 722;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    
+
+}
