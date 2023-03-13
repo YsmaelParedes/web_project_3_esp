@@ -45,6 +45,11 @@
     cursor: pointer;
 }
 
+.place__button:hover {
+    background-color: #0063D2;
+    transition: 0.3s;
+}
+
 .place__website {
     padding-bottom: 48px;
     grid-area: website;

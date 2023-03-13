@@ -53,4 +53,10 @@
 
 .cover__image:hover {
     opacity: 0.3;
+    transition: 0.3s;
+}
+
+.cover__button:hover {
+    background-color: #0063D2;
+    transition: 0.3s;
 }
