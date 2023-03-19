@@ -1,62 +1,46 @@
-.cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+@media (max-width: 320px) {
+    .cover {
+        padding-top: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .cover__image {
+        width: 100%;
+        opacity: 0.5;
+    }
 
+    .cover__container {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+    }
 
-.cover__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-}
+    .cover__title {
+        width: 288px;
+        margin: 0;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 16px;
+    }
 
+    .cover__subtitle {
+        width: 280px;
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 16px;
+    }
 
-.cover__image {
-    opacity: 0.8;
-    width: 1184px;
-    height: 740px;
-}
-
-.cover__title {
-    margin: 0;
-    font-size: 72px;
-    line-height: 76px;
-    letter-spacing: 0em;
-    padding-bottom: 32px;
-
-}
-
-.cover__subtitle {
-    width: 280px;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 32px;
-
-}
-
-.cover__button {
-    border: none;
-    font-size: 18px;
-    width: 198px;
-    height: 48px;
-    background-color: #0278FE;
-    color: #FFFF;
-    cursor: pointer;
-}
-
-
-.cover__image:hover {
-    opacity: 0.3;
-    transition: 0.3s;
-}
-
-.cover__button:hover {
-    background-color: #0063D2;
-    transition: 0.3s;
+    .cover__button {
+        width: 198px;
+        height: 48px;
+        background-color: #0278FE;
+        color: #FFFFFF;
+        font-size: 18px;
+        border-style: none;
+        border-radius: 4px;
+        align-self: center;
+    }
 }

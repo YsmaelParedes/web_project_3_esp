@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Inter;
+    font-family: "Inter";
     src: url(/fonts/inter-font/Inter-Black.woff);
 }
+
 .page {
-    min-width: 1280px;
-    margin: 0;
+    font-family: Inter;
+    font-weight: 100;
     background-color: #2A2C2F;
     color: #FFFFFF;
-    font-family: Inter;
 }

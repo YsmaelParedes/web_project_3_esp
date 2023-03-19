@@ -1,13 +1,16 @@
-.footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 92px;
-}
+@media (max-width: 320px) {
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-.footer__copyright {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0em;
-
-
+    .footer__copyright {
+        margin: 0;
+        width: 191px;
+        font-size: 14px;
+        padding-top: 64px;
+        padding-bottom: 24px;
+        text-align: center;
+    }
 }

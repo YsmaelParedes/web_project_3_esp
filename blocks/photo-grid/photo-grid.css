@@ -1,7 +1,14 @@
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(2, 213px);
-    justify-content: center;
-    grid-gap: 16px;
+@media (max-width: 320px) { 
+    .photo-grid {
+        padding-bottom: 62px;
+        justify-items: center;
+        display: grid;
+        row-gap: 12px;
+    }
+
+    .photo-grid--image {
+        width: 288px;
+        height: 216px;
+    }
 }
+
