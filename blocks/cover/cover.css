@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .cover {
         padding-top: 64px;
         display: flex;
@@ -18,7 +18,7 @@
     }
 
     .cover__title {
-        width: 288px;
+        width: 95%;
         margin: 0;
         font-size: 32px;
         text-align: center;
@@ -26,7 +26,7 @@
     }
 
     .cover__subtitle {
-        width: 280px;
+        width: 95%;
         margin: 0;
         font-size: 14px;
         text-align: center;
@@ -34,7 +34,7 @@
     }
 
     .cover__button {
-        width: 198px;
+        width: 95%;
         height: 48px;
         background-color: #0278FE;
         color: #FFFFFF;

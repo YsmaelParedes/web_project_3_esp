@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer {
         width: 100%;
         display: flex;
@@ -7,7 +7,7 @@
 
     .footer__copyright {
         margin: 0;
-        width: 191px;
+        width: 85%;
         font-size: 14px;
         padding-top: 64px;
         padding-bottom: 24px;

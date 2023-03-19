@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .lead {
         width: 100%;
         display: flex;
@@ -9,14 +9,14 @@
 
     .lead__title {
         font-size: 40px;
-        width: 288px;
+        width: 90%;
         text-align: center;
         margin: 0;
         padding-bottom: 60px;
     }
 
     .lead__subtitle {
-        width: 288px;
+        width: 90%;
         font-size: 16px;
         text-align: center;
         margin: 0;

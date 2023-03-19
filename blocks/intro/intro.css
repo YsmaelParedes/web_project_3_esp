@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .intro {
         display: flex;
         flex-direction: column;
@@ -9,25 +9,25 @@
 
     .intro__title {
         margin: 0;
-        width: 288px;
+        width: 80%;
         font-size: 32px;
     }
 
     .intro__quote {
-        width: 288px;
+        width: 80%;
         margin: 0;
         font-size: 24px;
     }
 
     .intro__quote-author {
         margin: 0;
-        width: 288px;
+        width: 80%;
         font-size: 24px;
         text-align: end;
     }
 
     .intro__text {
-        width: 288px;
+        width: 80%;
         margin: 0;
         font-size: 16px;
     }
