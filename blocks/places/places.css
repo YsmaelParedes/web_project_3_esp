@@ -13,9 +13,10 @@
     "country artist-name"
     "image pharagraph-1"
     "image pharagraph-2"
-    "button pharagraph-2"
-    ;
+    "button pharagraph-2";
+
 }
+
 .place__title {
     width: 90%;
     margin: 0;
@@ -96,9 +97,10 @@
         "country artist-name"
         "image pharagraph-1"
         "image pharagraph-2"
-        "button pharagraph-2"
-        ;
+        "button pharagraph-2";
     }
+
+    
     .place__title {
         width: 90%;
         margin: 0;
