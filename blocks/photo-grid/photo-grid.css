@@ -1,3 +1,35 @@
+.photo-grid {
+    padding-bottom: 62px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 0 48px 92px 48px;
+}
+
+.photo-grid--image {
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1279x) {
+    .photo-grid {
+        padding-bottom: 62px;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 0 26px 0 26px;
+    }
+
+    .photo-grid--image {
+        width: 100%;
+    }
+}
+
+
+
 @media (min-width: 320px) and (max-width: 767px) { 
     .photo-grid {
         padding-bottom: 62px;

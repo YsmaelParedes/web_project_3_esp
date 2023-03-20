@@ -1,3 +1,165 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place {
+    padding-top: 88px;
+    padding-bottom: 92px;
+    width: 90%;
+    display: grid;
+    grid-template-areas: 
+    "country artist"
+    "country artist-name"
+    "image pharagraph-1"
+    "image pharagraph-2"
+    "button pharagraph-2"
+    ;
+}
+.place__title {
+    width: 90%;
+    margin: 0;
+    font-size: 72px;
+    padding-bottom: 30px;
+    grid-area: country;
+
+}
+
+.place__artist {
+    grid-area: artist;
+    margin: 0;
+    width: 50%;
+    font-size: 12px;
+    color: #AAAAAA;
+    padding-bottom: 8px;
+}
+
+.place__artist-name {
+    grid-area: artist-name;
+    margin: 0;
+    width: 50%;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.place__image {
+    padding-bottom: 48px;
+    width: 90%;
+    grid-area: image;
+    object-fit: cover;
+}
+
+.place__pharagraph-1 {
+    grid-area: pharagraph-1;
+    margin: 0;
+    padding-bottom: 7px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 29.34px;
+}
+
+.place__pharagraph-2 {
+    grid-area: pharagraph-2;
+    margin: 0;
+    padding-bottom: 8px;
+    width: 90%;
+    font-size: 18px;
+    line-height: 29.34px;
+
+}
+
+.place__button {
+    font-size: 18px;
+    grid-area: button;
+    width:55%;
+    height: 48px;
+    background-color: #0278FE;
+    border-style: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.place__button:hover {
+    background-color: #0063D2;
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .place {
+        padding-top: 88px;
+        padding-bottom: 92px;
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-areas: 
+        "country artist"
+        "country artist-name"
+        "image pharagraph-1"
+        "image pharagraph-2"
+        "button pharagraph-2"
+        ;
+    }
+    .place__title {
+        width: 90%;
+        margin: 0;
+        font-size: 42px;
+        padding-bottom: 30px;
+        grid-area: country;
+
+    }
+
+    .place__artist {
+        grid-area: artist;
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        color: #AAAAAA;
+        padding-bottom: 8px;
+    }
+
+    .place__artist-name {
+        grid-area: artist-name;
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+    .place__image {
+        padding-bottom: 48px;
+        width: 90%;
+        grid-area: image;
+        object-fit: cover;
+    }
+
+    .place__pharagraph-1 {
+        grid-area: pharagraph-1;
+        margin: 0;
+        padding-bottom: 7px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .place__pharagraph-2 {
+        grid-area: pharagraph-2;
+        margin: 0;
+        padding-bottom: 8px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .place__button {
+        grid-area: button;
+        width: 90%;
+        height: 48px;
+        background-color: #0278FE;
+        border-style: none;
+        border-radius: 4px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .place {
         width: 100%;
